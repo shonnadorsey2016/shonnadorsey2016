@@ -3,6 +3,7 @@ header, footer {
   color: white;
   text-align:center;
   padding: 10px;
+  display:none;
 }
 
 nav {
@@ -31,6 +32,7 @@ a:hover{
 img {
   height:200px;
   width:200px;
+  display:none;
 }
 
 #circle-picture {
