@@ -1,4 +1,4 @@
-header {
+header, footer {
   background:blue;
   color: white;
   text-align:center;
@@ -6,13 +6,12 @@ header {
 }
 
 nav {
-  line-height:50px;
+  line-height:20px;
   background:#cccccc;
   height:600px;
   width:120px;
   float:left;
   padding:5px;
-
 }
 
 section {
@@ -22,10 +21,7 @@ section {
 }
 
 footer {
-  background: blue;
-  color: white;
   clear:both;
-  text-align:center;
   padding:5px;
 }
 
