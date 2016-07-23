@@ -35,6 +35,10 @@ a:hover{
   width:100px;
 }
 
+ul {
+  list-style-image: url('http://www.carithers.com/images/pageMakerImages/Daisy111080783941.jpg');
+}
+
 footer {
   clear:both;
   padding:5px;
