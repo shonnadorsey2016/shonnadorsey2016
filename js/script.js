@@ -4,6 +4,6 @@ $(document).ready(function(){
       $('header').css("background", "green");
     });
   $('button').click(function(){
-    $('img').hide();
+    $('img').toggle();
   });
 });
