@@ -28,6 +28,10 @@ a{
 a:hover{
   color:yellow;
 }
+img {
+  height:200px;
+  width:200px;
+}
 
 #circle-picture {
   border-radius:100px;
