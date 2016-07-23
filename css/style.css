@@ -20,11 +20,6 @@ section {
   padding:15px;
 }
 
-footer {
-  clear:both;
-  padding:5px;
-}
-
 a{
   color:green;
   text-decoration:none;
@@ -34,8 +29,13 @@ a:hover{
   color:yellow;
 }
 
-img {
+#circle-picture {
   border-radius:100px;
   height:100px;
   width:100px;
+}
+
+footer {
+  clear:both;
+  padding:5px;
 }
