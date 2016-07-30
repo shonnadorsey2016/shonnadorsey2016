@@ -17,6 +17,6 @@
   background: purple;
 }
 
-li {
- color: red;
+.navbar-default .navbar-nav>li>a{
+	color: red;
 }
