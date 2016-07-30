@@ -12,11 +12,30 @@
   color:blue;
 }
 
-.navbar {
-  
-  background: purple;
+.navbar-default .navbar-brand  {
+	color: #E8E8E8;
+	font-size: 30px;
+	font-family: "Satisfy";	
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+	color: #E8E8E8;
+	font-size: 30px;
+	font-family: "Satisfy";	
 }
 
 .navbar-default .navbar-nav>li>a{
-	color: red;
+	color: #E8E8E8;
 }
+
+.navbar {
+	background: #804000;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #fff;
+	background: #663300;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #fff;
+} 	
+
