@@ -1,8 +1,10 @@
+body {
+  font-family: 'Allura', monospace;
+  font-size: 1.5em;
+}
+
 .container {
   margin: 3em;
   padding: 1em;
 }
 
-.styled {
-  font-family: 'Allura', monospace;
-}
