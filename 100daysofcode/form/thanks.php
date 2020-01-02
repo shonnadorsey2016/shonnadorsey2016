@@ -1,3 +1,15 @@
+<?php
+if (isset($_POST['submit'])) {
+  $to = 'shonna.dorsey@gmail.com';
+  $subject = 'Email from shonnadorsey.com';
+  $message = 'Name: " . $_POST['contactName'] . "\r\n\r\n";
+  $message .= 'Email: ' . $_POST['emailAddr'] . "\r\n\r\n";
+  $message .= 'Reason: ' . $_POST['dropDown'] . "\r\n\r\n";
+  $message .= 'Comments: ' . $_POST['textArea'] . "\r\n\r\n";
+  
+  echo $message;
+}
+?>
 <!DOCTYPE html>
 <html>
   <head>
